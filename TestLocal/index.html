@@ -1,0 +1,14 @@
+<body>
+<head>
+</head>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.1/leap.min.js'></script>
+<script>
+	Leap.loop(function(frame){
+		//console.log(frame.hands.length);
+		frame.hands.forEach(function(hand, index) {
+			console.log(index + " (" + hand.type + ") " + hand.indexFinger.tipPosition[2]);
+		});
+	});
+</script>
+</body>

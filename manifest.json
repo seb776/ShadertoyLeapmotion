@@ -1,0 +1,28 @@
+  {
+    "name": "Shadertoy for Leapmotion",
+    "version": "1.0",
+    "description": "Allows you to get leap motion data on shadertoy.",
+    "permissions": ["tabs", "*://*.shadertoy.com/*",
+        "activeTab",
+        "clipboardWrite"],
+    "content_scripts": [{
+        "matches": ["*://*.shadertoy.com/view/*","*://*.shadertoy.com/new"],
+        "run_at":"document_end",
+        "js": ["script.js"]
+      }],
+      "web_accessible_resources": [
+        "leap.min.js",
+        "scriptLeap.js"
+     ],
+     "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2
+  }
+
+
+
