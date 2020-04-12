@@ -1,6 +1,6 @@
 # ShadertoyLeapmotion
 A small POC made for revision 2020 that make possible to use leapmotion on shadertoy.
-Here's the [Video](https://www.youtube.com/watch?v=Ul-kvkaXo_0)
+Here's the [Video](https://www.youtube.com/watch?v=9G-Jb9_HNrU)
 
 ![Screenshot](https://github.com/seb776/ShadertoyLeapmotion/raw/master/Images/ShaderleapScreenshot.PNG)
 
