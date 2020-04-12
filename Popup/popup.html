@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Leapmotion on shadertoy</title>
+        <style>
+            html {
+                height: 0px; /* Dirty but to avoid weird popup size issue */
+            }
+            body {
+              text-align: center;
+            }
+
+            #iconId {
+              width: 100px;
+              margin: 15px;
+            }
+
+            button {
+              margin: 5px;
+              outline: none;
+            }
+
+            button:hover {
+              outline: #80DEEA dotted thick;
+            }
+            #popupTitle {
+                background-color: #424242;
+                font-size: 80%;
+                color:white;
+                width: 120%;
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin: -10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id='popupTitle'>
+                    Leapmotion on shadertoy v1.0
+         </div>
+        <img src='../Images/OKicon.png' id='iconId'>
+
+        <button id='documentationId'>Documentation</button>
+        <button id='githubId'>Github page</button>
+        <button id='copycodeId'>Copy code</button>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
