@@ -20,7 +20,7 @@ Here's the [Video](https://www.youtube.com/watch?v=Ul-kvkaXo_0)
 # Sample
 https://www.shadertoy.com/view/wsSyWW
 ![Screenshot](https://github.com/seb776/ShadertoyLeapmotion/raw/master/Images/CaptureHandsSemantics.PNG)
-`
+```C
 // Code provided by the plugin
 uniform vec3 LeftHand[28]; uniform vec3 RightHand[28];uniform float LeftConfidence;uniform float RightConfidence;uniform float LeftAvailable; uniform float RightAvailable;
 const int ELBOW = 0, WRIST = 1, PALM = 2;
@@ -28,5 +28,5 @@ const int FINGER_THUMB = 3, FINGER_INDEX = 8, FINGER_MIDDLE = 13, FINGER_RING = 
 const int CARP_POS = 0, MCP_POS = 1, PIP_POS = 2, DIP_POS = 3, TIP_POS = 4;
 
 // you can use LeftHand[N] or RightHand[N] where N can be ELBOW,WRIST,PALM or
-// FINGER_XXX + YYY_POS
-`
+// FINGER_XXX + YYY_POS to retrieve joints positions.
+```
