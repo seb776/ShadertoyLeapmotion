@@ -3,7 +3,6 @@
   "version": "1.0",
   "description": "Allows you to get leap motion data on shadertoy.",
   "permissions": ["tabs", "*://*.shadertoy.com/*",
-      "tabs",
       "activeTab",
       "clipboardWrite"],
   "browser_action": {
