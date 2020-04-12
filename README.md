@@ -9,7 +9,7 @@ Here's the [Video](https://www.youtube.com/watch?v=9G-Jb9_HNrU)
 - publish it to chrome store and firefox store (for webVR)
 
 # How to ?
-- clone / download the repo
+- clone / download the repo / Or add it from the chrome store https://chrome.google.com/webstore/detail/shadertoy-for-leapmotion/gadhelfebmbbjkjmnkgpajjaachobjbf
 - load the unpacked extension (ChromePlugin folder) https://developer.chrome.com/extensions/getstarted#unpacked
 - Go to shadertoy
 - click on the "Sh" icon that's been added click on "Copy code"
