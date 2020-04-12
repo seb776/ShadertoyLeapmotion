@@ -2,6 +2,8 @@
 A small POC made for revision 2020 that make possible to use leapmotion on shadertoy.
 Here's the video
 https://www.youtube.com/watch?v=Ul-kvkaXo_0
+![Screenshot](/ShaderleapScreenshot.png)
+
 
 # Roadmap
 - add missing parts (arm and the carpal bones)
