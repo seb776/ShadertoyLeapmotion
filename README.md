@@ -6,7 +6,10 @@ Here's the [Youtube Video](https://www.youtube.com/watch?v=9G-Jb9_HNrU)
 
 
 # Roadmap
-- publish it to chrome store and firefox store (for webVR)
+- publish it to firefox store (for webVR)
+- Rethink the input ? Using channels
+- Check if it works with multipass shaders (I think not)
+- Other browsers ?
 
 # How to ?
 - clone / download the repo / Or add it from the chrome store https://chrome.google.com/webstore/detail/shadertoy-for-leapmotion/gadhelfebmbbjkjmnkgpajjaachobjbf
